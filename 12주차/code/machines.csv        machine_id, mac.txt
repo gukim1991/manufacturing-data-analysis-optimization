@@ -1,0 +1,7 @@
+machines.csv       : machine_id, machine_type
+items.csv          : item_code, item_type(BULK/FG), bom_parent_code
+routings.csv       : item_code, seq, machine_type, std_time_per_unit
+orders.csv         : order_id, item_code, qty, release_dt, due_dt
+machine_calendar.csv (선택): machine_id, available_from, available_to
+
+텀프로젝트 어디까지 했지?", "코드 어떻게 실행해?", "PPT에 뭐 들어있어?

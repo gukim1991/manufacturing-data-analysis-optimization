@@ -1,0 +1,20 @@
+============================================================
+화장품 MES JSSP 최적화 — 실험 결과
+============================================================
+
+Instance: inst_b3_f3_s42
+  - BULK Jobs: 3, FG Jobs: 3 (BOM: FG-i → BULK-(i%3))
+  - Machines: 10 (SCALE 2, MIXER 2, QC_BULK 1, STORAGE 2, FILLER 1, QC_FG 1, PACKAGING 1)
+
+Solver Comparison:
+  Solver           Makespan   MeanTard    Util%   Time(s)
+  --------------  ---------  ---------  -------  --------
+  DISP-FIFO          361.76       0.00    24.9%     0.000
+  DISP-SPT           388.15       0.00    23.2%     0.000
+  DISP-EDD           361.76       0.00    24.9%     0.000
+  MILP               380.10       0.00    23.7%     0.137
+
+Makespan Gap vs MILP Optimal:
+  DISP-FIFO     : +-4.83%
+  DISP-SPT      : + 2.12%
+  DISP-EDD      : +-4.83%

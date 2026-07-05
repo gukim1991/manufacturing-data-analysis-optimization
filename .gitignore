@@ -1,0 +1,38 @@
+# 가상환경 / IDE / 도구 설정
+.venv/
+venv/
+.idea/
+.vscode/
+.claude/
+__pycache__/
+*.pyc
+node_modules/
+
+# 강의자료 PDF (저작권 문제로 미포함)
+*.pdf
+
+# 대용량 데이터셋 원본·압축파일 (용량 및 라이선스 문제로 미포함)
+*.zip
+*.egg
+*.wav
+*.bak
+6주차/cromate_cnn_anomaly/data/
+6주차/mvtec/mvtec_ad/
+
+# 학습 산출물 (모델 체크포인트, 텐서보드 로그)
+*.pth
+*.pt
+runs/
+
+# 음성 학습노트 (생성 오디오)
+*.mp3
+
+# 시험 관련
+중간고사/
+
+# 개인정보 포함 파일
+14주차/기말 텀프로젝트 상호 평가서_김건우.xlsx
+
+# OS
+Thumbs.db
+.DS_Store

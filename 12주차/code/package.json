@@ -1,0 +1,15 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "## 구조 ``` code/ ├── main.py                   # End-to-end demo entry point ├── README.md ├── requirements.txt ├── src/ │   ├── domain.py             # Operation/Job/Machine/Schedule │   ├── loader.py             # 합성 인스턴스 생성기 │   ├── dispatching_solver.py # SPT/EDD/FIFO/LPT/CR │   ├── milp_solver.py        # PuLP + CBC 기반 MILP │   └── visualizer.py         # 간트 / KPI 비교 차트 └── results/                  # 출력 PNG 및 텍스트 보고서 ```",
+  "main": "build_pptx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
